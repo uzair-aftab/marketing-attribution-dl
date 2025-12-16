@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+data/raw/
+data/processed/*.pkl
+results/models/*.pth
+results/models/*.pt
+
+# Large files
+*.pkl
+*.pth
+*.pt
+*.h5
+*.hdf5
+
+# Keep gitkeep files
+!**/.gitkeep
+
+# Include webapp data (small JSON for dashboard)
+!webapp/assets/data/*.json
+
+# Include result figures for documentation
+!results/figures/*.png
