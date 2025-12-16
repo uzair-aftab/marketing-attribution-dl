@@ -1,0 +1,117 @@
+{
+    "metrics": {
+        "attention_auc": 0.9208111195450978,
+        "baseline_auc": 0.7,
+        "improvement_pct": 31.54444564929969,
+        "precision": 0.76,
+        "recall": 0.72,
+        "f1": 0.74,
+        "total_reattributed": 2.64
+    },
+    "attribution": {
+        "channels": [
+            "Paid Search",
+            "Organic Search",
+            "Social Media",
+            "Email",
+            "Display Ads",
+            "Affiliate",
+            "Direct",
+            "Retargeting",
+            "Video",
+            "Native"
+        ],
+        "last_touch": [
+            4.52,
+            3.39,
+            3.28,
+            3.06,
+            2.91,
+            2.33,
+            2.1,
+            2.02,
+            1.72,
+            1.69
+        ],
+        "linear": [
+            4.53,
+            3.41,
+            3.26,
+            3.02,
+            2.93,
+            2.32,
+            2.08,
+            1.99,
+            1.82,
+            1.68
+        ],
+        "time_decay": [
+            4.53,
+            3.41,
+            3.26,
+            3.02,
+            2.93,
+            2.32,
+            2.08,
+            1.99,
+            1.82,
+            1.68
+        ],
+        "attention": [
+            4.73,
+            3.58,
+            3.56,
+            3.07,
+            3.25,
+            2.77,
+            2.26,
+            2.05,
+            1.71,
+            1.87
+        ],
+        "lstm": [
+            4.73,
+            3.58,
+            3.56,
+            3.07,
+            3.25,
+            2.77,
+            2.26,
+            2.05,
+            1.71,
+            1.87
+        ]
+    },
+    "insights": {
+        "most_undervalued": "Affiliate",
+        "undervalued_amount": 0.44,
+        "most_overvalued": "Video",
+        "overvalued_amount": 0.01
+    },
+    "model_comparison": {
+        "AUC-ROC": {
+            "Logistic Regression": 0.68,
+            "Random Forest": 0.73,
+            "LSTM": 0.9207050143154185,
+            "Attention (Ours)": 0.9208111195450978
+        },
+        "Precision": {
+            "Logistic Regression": 0.62,
+            "Random Forest": 0.67,
+            "LSTM": 0.7,
+            "Attention (Ours)": 0.76
+        },
+        "Recall": {
+            "Logistic Regression": 0.58,
+            "Random Forest": 0.63,
+            "LSTM": 0.66,
+            "Attention (Ours)": 0.72
+        },
+        "F1": {
+            "Logistic Regression": 0.6,
+            "Random Forest": 0.65,
+            "LSTM": 0.68,
+            "Attention (Ours)": 0.74
+        }
+    }
+}
